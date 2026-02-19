@@ -21,7 +21,8 @@ jobs:
       - name: Zip Lambda Function
         run: |
           cd lambda
-          zip -r ../lambda.zip .
+          zip -r ../terraform/lambda.zip .
+
 
       - name: Zip Lambda Layer
         run: |
