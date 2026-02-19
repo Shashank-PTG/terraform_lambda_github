@@ -34,6 +34,7 @@ variable "layer_name" {
   default = "utils-layer"
 }
 
+
 variable "layer_zip_path" {
   description = "Path to lambda layer zip file"
   type = "string"
