@@ -4,6 +4,7 @@ data "archive_file" "lambda_zip" {
   output_path = "lambda.zip"
 }
 
+
 resource "aws_lambda_function" "my_lambda" {
   function_name      = "MyLambda"
   role               = aws_iam_role.lambda_exec.arn
